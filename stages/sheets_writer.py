@@ -16,7 +16,7 @@ HEADERS = [
     "Rank", "Name", "GitHub", "LinkedIn", "Portfolio", "Resume/CV",
     "Score", "Primary Domain", "Skills", "Pros", "Cons",
     "Consistency", "Project Quality", "Tech Depth", "Activity",
-    "Projects Summary", "Top Languages", "Stars", "Last Updated",
+    "Projects Summary", "Top Languages", "Stars",
 ]
 
 def write_candidates(ranked: list[dict]):
