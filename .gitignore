@@ -1,0 +1,28 @@
+# Environments
+.env
+venv/
+.venv/
+venv_app/
+venv_new/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data & Models
+credentials/
+candidates_cache.json
+enrichment_cache.json
+candidates.db
+hybrid_candidates.db
+candidates_output.csv
+candidate_classifier.pkl
+
+# Logs
+logs/
+*.log
+
+# Frontend (just in case)
+frontend/node_modules/
+frontend/dist/
